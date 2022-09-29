@@ -1,4 +1,4 @@
-package List.arrayList;
+package Collection.List.arrayList;
 
 
 import java.util.*;
@@ -54,10 +54,9 @@ public class Main {
         // 10- isEmpty()  it will check the list is empty or not
         System.out.println(list.isEmpty());  // false
 
-        // 11- Collections.shuffle(list) -> it will shift to the right
-        // [33, 2, 1, 4]
+        // 11- Collections.shuffle(list) -> it will shuffle(randomly) elements
         Collections.shuffle(list);
-        System.out.println(list);  // [4, 33, 1, 2]
+        System.out.println("this is shuffle: "+ list);
 
         // 12- Collections.sort(list)
         Collections.sort(list);
